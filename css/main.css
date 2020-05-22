@@ -1315,6 +1315,9 @@ img.background-img {
   textarea {
     -webkit-appearance: none;
   }
+  section#disco img {
+    max-width: 300px !important;
+  }
   #bio .popup-image img {
     width: 100%;
     margin: 0 0 1rem 0;
@@ -1469,4 +1472,24 @@ img.background-img {
   100% {
     font-size: 1.3rem;
   }
+}
+section#disco {
+  background-color: rgba(19, 24, 29, 0.97);
+}
+.background-video {
+  position: absolute;
+  z-index: -1;
+  top: -10%;
+  left: -10%;
+  right: -10%;
+  bottom: -10%;
+  width: 100%;
+  height: 100%;
+}
+.background-video iframe {
+  width: 120%;
+  height: 120%;
+}
+section#disco img {
+  text-align: center;
 }
