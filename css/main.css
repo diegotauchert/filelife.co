@@ -339,10 +339,13 @@ section.hero {
   font-size: 0.6875rem;
   font-weight: 600;
   text-transform: uppercase;
-  margin-left: 1.9625rem;
+  margin-left: 1.5625rem;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+.main-menu.list-inline .list-inline-item:hover {
+  border-bottom: 2px solid #ff5252;
+  transition: 0.5s;
+}
 .main-nav ul li i {
   color: #ff5252;
 }
@@ -1494,4 +1497,21 @@ section#disco {
 section#disco img {
   text-align: center;
   margin: 0 auto;
+}
+.text-bio {
+  font-size: 0.9rem;
+}
+.langs .lang {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: normal;
+}
+.lang.active,
+li.block-helper a:hover i {
+  color: #fff !important;
+  transition: 0.5s;
+}
+.lang.active {
+  background-color: #ff5252;
+  padding: 0 4px;
 }

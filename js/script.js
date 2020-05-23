@@ -218,6 +218,26 @@
     }
   });
 
+  $(".translate").each(function () {
+    if ($(this).attr("lang") == "pt-br") {
+      $(this).hide();
+    }
+  });
+
+  $(".lang").click(function () {
+    $(".lang").removeClass("active");
+    $(this).addClass("active");
+
+    var $lang = $(this).attr("data");
+
+    $(".translate").hide();
+    $(".translate").each(function () {
+      if ($(this).attr("lang") == $lang) {
+        $(this).show();
+      }
+    });
+  });
+
   //Popup elements
 
   $(".popup-image").magnificPopup({
