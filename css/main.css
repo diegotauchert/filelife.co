@@ -1476,6 +1476,10 @@ img.background-img {
 section#disco {
   background-color: rgba(19, 24, 29, 0.97);
 }
+section#disco img {
+  margin: 0 auto;
+}
+
 .background-video {
   position: absolute;
   z-index: -1;
