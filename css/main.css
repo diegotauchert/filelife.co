@@ -669,8 +669,14 @@ h1.large {
   position: absolute;
   left: 1.0625rem;
   top: 1.3rem;
-  font-size: 0.5625rem;
+  font-size: 0.9625rem;
   color: rgba(255, 255, 255, 0.7);
+  animation: color-pulse 2s ease infinite alternate forwards;
+}
+@keyframes color-pulse {
+  100% {
+    color: #fff;
+  }
 }
 
 .block-tracklist .playlist li.playing:before {
