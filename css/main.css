@@ -1522,5 +1522,5 @@ li.block-helper a:hover i {
   padding: 0 4px;
 }
 .toggle-lyrics.selected {
-  border-color: #049056;
+  border-color: #049056 !important;
 }
