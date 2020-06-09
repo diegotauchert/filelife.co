@@ -147,7 +147,7 @@
     return false;
   });
 
-  $(".btn").on("click", function () {
+  $(".btn:not(.buy-it)").on("click", function () {
     var href = $(this).attr("href");
     window.location.href = href;
     return false;
